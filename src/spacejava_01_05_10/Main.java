@@ -37,6 +37,7 @@ public class Main {
         
         private static final Logger logger = Logger.getLogger("spacejava_01_05_10.Main");
         static Scanner user_input = new Scanner(System.in);
+        system.out.println("Hello Fanibanda");
 
     public static void main(String[] args) throws IOException {
       
@@ -238,6 +239,7 @@ private static char drawHUD(int mx, int my, Ship s) {
    System.out.println("Cargo Hold: Rice: " + s.getRice() + " IRON: " + s.getIron() + " SUGAR: " + s.getSugar());
    
    System.out.println("Where do you want to move? (XX YY -- Q Q is quit) ");
+   System.out.println("Hello Fanibanda");
    Scanner sc = new Scanner(System.in);
 
 
