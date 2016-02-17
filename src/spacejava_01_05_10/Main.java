@@ -47,6 +47,7 @@ public class Main {
        logFile.setFormatter(new SimpleFormatter());
        logger.addHandler(logFile);
        logger.log(Level.INFO, "::::::::::::::::::Init Logging::::::::::::::::::");
+       system.out.println("Hello Fanibanda");
        Random rand = new Random();      
 //        final int PLANET_NAME_SIZE=9;
 //        final int UNIVERSE_ARRAY_SIZE=9;
