@@ -37,7 +37,7 @@ public class Main {
         
         private static final Logger logger = Logger.getLogger("spacejava_01_05_10.Main");
         static Scanner user_input = new Scanner(System.in);
-        system.out.println("Hello Fanibanda");
+        System.out.println("Hello Fanibanda");
 
     public static void main(String[] args) throws IOException {
       
@@ -47,7 +47,7 @@ public class Main {
        logFile.setFormatter(new SimpleFormatter());
        logger.addHandler(logFile);
        logger.log(Level.INFO, "::::::::::::::::::Init Logging::::::::::::::::::");
-       system.out.println("Hello Fanibanda");
+       System.out.println("Hello Fanibanda");
        Random rand = new Random();      
 //        final int PLANET_NAME_SIZE=9;
 //        final int UNIVERSE_ARRAY_SIZE=9;
