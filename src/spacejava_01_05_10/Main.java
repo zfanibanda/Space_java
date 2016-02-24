@@ -46,7 +46,7 @@ public class Main {
        FileHandler logFile = new FileHandler("output%g.txt",true);
        logFile.setFormatter(new SimpleFormatter());
        logger.addHandler(logFile);
-       logger.log(Level.INFO, "::::::::::::::::::Init Logging::::::::::::::::::");
+       logger.log(Level.INFO, "::::::::::::::::::Init Log2::::::::::::::::::");
        System.out.println("Hello Fanibanda");
        Random rand = new Random();      
 
