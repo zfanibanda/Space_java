@@ -10,7 +10,7 @@ package spacejava_01_05_10;
  * @author jeremy
  */
 public class Ship extends Unit {
-
+System.out.println("Hello ZZZZZZZZ");
     	protected String shipName;
 	protected double fuel;
 	protected int money;
