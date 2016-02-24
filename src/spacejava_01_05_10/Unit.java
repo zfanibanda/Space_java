@@ -3,6 +3,14 @@
  * and open the template in the editor.
  */
 
+
+/*
+
+Hello from the other side
+
+*/
+
+
 package spacejava_01_05_10;
 
 /**
