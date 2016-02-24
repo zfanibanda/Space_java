@@ -87,8 +87,8 @@ public class Main {
   
    //randomEvent();
    //marketFlux();	   
-   // gotoX = getXCoord();
-   // gotoY = getYCoord();
+
+
    drawMap(s.getX(),s.getY(),jupiter.getX(),jupiter.getY(),earth.getX(),earth.getY(),mars.getX(),mars.getY(),ganymede.getX(),ganymede.getY(),moon.getX(),moon.getY(),saturn.getX(),saturn.getY(),neptune.getX(),neptune.getY(),pluto.getX(),pluto.getY(),ceres.getX(),ceres.getY(),sun.getX(),sun.getY(),beltegeuse.getX(),beltegeuse.getY());
    //drawHUD(moon.getX(),moon.getY(),s);
    input = drawHUD(moon.getX(),moon.getY(),s);
