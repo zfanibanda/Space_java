@@ -49,11 +49,7 @@ public class Main {
        logger.log(Level.INFO, "::::::::::::::::::Init Logging::::::::::::::::::");
        System.out.println("Hello Fanibanda");
        Random rand = new Random();      
-//        final int PLANET_NAME_SIZE=9;
-//        final int UNIVERSE_ARRAY_SIZE=9;
-//        int moonCounter=0;
-//        int number_of_planets=0;
-//        int movePosition=0;
+
 
    Planet jupiter = new Planet(36,(rand.nextInt(POSITIVE_Y_LIMIT - NEGATIVE_Y_LIMIT + 1) + NEGATIVE_Y_LIMIT),1.5,"Juptier",2000,6000,100,100,100,100,200,10,100);
    Planet earth = new Planet (12,(rand.nextInt(POSITIVE_Y_LIMIT - NEGATIVE_Y_LIMIT + 1) + NEGATIVE_Y_LIMIT),1.0,"Earth",25000,10000,1000,1000,1000,1200,50,100,100);
